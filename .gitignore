@@ -1,0 +1,10 @@
+*.class
+out/*
+!out/.gitkeep
+bin/
+target/
+.idea/
+*.iml
+.vscode/*
+!.vscode/settings.json
+.DS_Store
