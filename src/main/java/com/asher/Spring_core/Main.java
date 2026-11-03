@@ -21,3 +21,6 @@ public class Main {
         context.close();
     }
 }
+
+// mvn clean compile
+// mvn org.codehaus.mojo:exec-maven-plugin:3.5.0:java "-Dexec.mainClass=com.asher.Spring_core.Main"
