@@ -8,29 +8,5 @@
         https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
     version="6.0">
 
-    <context-param>
-        <param-name>applicationName</param-name>
-        <param-value>Student Management System</param-value>
-    </context-param>
-
-    <context-param>
-        <param-name>college</param-name>
-        <param-value>SRMIST</param-value>
-    </context-param>
-
-
-    <servlet>
-    <servlet-name>LoginServlet</servlet-name>
-    <servlet-class>com.asher.servlet.LoginServlet</servlet-class>
-
-    <init-param>
-        <param-name>adminName</param-name>
-        <param-value>Asher</param-value>
-    </init-param>
-    </servlet>
-
-    <servlet-mapping>
-        <servlet-name>LoginServlet</servlet-name>
-        <url-pattern>/LoginOfHell</url-pattern>
-    </servlet-mapping>
+   
 </web-app>
