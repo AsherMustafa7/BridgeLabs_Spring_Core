@@ -1,4 +1,4 @@
-package com.asher.servlet.Spring_core;
+package com.asher.Spring_core;
 
 
 import org.springframework.context.annotation.Bean;
