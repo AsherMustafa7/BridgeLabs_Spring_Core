@@ -8,5 +8,25 @@
         https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
     version="6.0">
 
-   
+    <!-- 1. Tell Spring to use Java-based configuration -->
+    <context-param>
+        <param-name>contextClass</param-name>
+        <param-value>
+            org.springframework.web.context.support.AnnotationConfigWebApplicationContext
+        </param-value>
+    </context-param>
+
+    <!-- 2. Tell Spring where our configuration class is -->
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>com.asher.springweb.AppConfig</param-value>
+    </context-param>
+
+    <!-- 3. Start and close Spring automatically -->
+    <listener>
+        <listener-class>
+            org.springframework.web.context.ContextLoaderListener
+        </listener-class>
+    </listener>
+
 </web-app>
