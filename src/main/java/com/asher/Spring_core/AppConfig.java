@@ -6,5 +6,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ComponentScan(basePackages = "com.asher.Spring_core")
 public class AppConfig {
-
+    public AppConfig() {
+        System.out.println("AppConfig class is loaded");
+    }
 }
